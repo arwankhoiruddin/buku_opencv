@@ -13,5 +13,5 @@ rm opencv_arwan_book.toc
 
 git init
 git add . -A
-git commit -m 'images are included in gambar folder'
+git commit -m "$1"
 git push origin master
