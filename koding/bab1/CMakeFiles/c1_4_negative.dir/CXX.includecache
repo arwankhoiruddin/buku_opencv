@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/arwan/Documents/lipi/Bukuku/Citra_OpenCV/koding/bab1/c1_4_negative.cpp
+iostream
+-
+opencv2/opencv.hpp
+-
+

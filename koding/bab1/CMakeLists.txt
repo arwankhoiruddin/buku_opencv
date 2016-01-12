@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( c1_4_negative )
+find_package( OpenCV REQUIRED )
+add_executable( c1_4_negative c1_4_negative.cpp )
+target_link_libraries( c1_4_negative ${OpenCV_LIBS} )
