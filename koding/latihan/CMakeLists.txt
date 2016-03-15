@@ -1,5 +1,0 @@
-cmake_minimum_required(VERSION 2.8)
-project( Display4 )
-find_package( OpenCV REQUIRED )
-add_executable( Display4 Display4.cpp )
-target_link_libraries( Display4 ${OpenCV_LIBS} )
